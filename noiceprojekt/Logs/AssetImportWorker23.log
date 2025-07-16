@@ -1,0 +1,564 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.60f1 (5f63fdee6d95) revision 6251517'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Enterprise' Language: 'en' Physical Memory: 65222 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.60f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker23
+-projectPath
+C:/Users/PRSCAMPS/Documents/GitHub/NEWProjekt/noiceprojekt
+-logFile
+Logs/AssetImportWorker23.log
+-srvPort
+62207
+Successfully changed project path to: C:/Users/PRSCAMPS/Documents/GitHub/NEWProjekt/noiceprojekt
+C:/Users/PRSCAMPS/Documents/GitHub/NEWProjekt/noiceprojekt
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [41864]  Target information:
+
+Player connection [41864]  * "[IP] 172.19.161.58 [Port] 0 [Flags] 2 [Guid] 3426385875 [EditorId] 3426385875 [Version] 1048832 [Id] WindowsEditor(7,B43-123-C03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [41864]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3426385875 [EditorId] 3426385875 [Version] 1048832 [Id] WindowsEditor(7,B43-123-C03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [41864]  * "[IP] 172.23.240.1 [Port] 0 [Flags] 2 [Guid] 3426385875 [EditorId] 3426385875 [Version] 1048832 [Id] WindowsEditor(7,B43-123-C03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [41864] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [41864] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+Refreshing native plugins compatible for Editor in 4.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.60f1 (5f63fdee6d95)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.60f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PRSCAMPS/Documents/GitHub/NEWProjekt/noiceprojekt/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4090 (ID=0x2684)
+    Vendor:   NVIDIA
+    VRAM:     24142 MB
+    Driver:   32.0.15.7283
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.60f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.60f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.60f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.60f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.60f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.60f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.005896 seconds.
+- Loaded All Assemblies, in  0.384 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.144 seconds
+Domain Reload Profiling: 527ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (184ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (103ms)
+			TypeCache.Refresh (103ms)
+				TypeCache.ScanAssembly (92ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (144ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (118ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.445 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.310 seconds
+Domain Reload Profiling: 755ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (228ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (95ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (311ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (232ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (129.2 KB). Loaded Objects now: 3847.
+Memory consumption went from 136.4 MB to 136.2 MB.
+Total: 4.962600 ms (FindLiveObjects: 0.235500 ms CreateObjectMapping: 0.094900 ms MarkObjects: 4.484900 ms  DeleteObjects: 0.145900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 27857.015111 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Models/Vegetation/Reeds/Reed_5.fbx
+  artifactKey: Guid(bdda147285d4ce5489b8e87db27226b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Models/Vegetation/Reeds/Reed_5.fbx using Guid(bdda147285d4ce5489b8e87db27226b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '155eb2eef893e3935051deee8ed7d3de') in 0.111141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 2.625565 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Models/Vegetation/Plants/Plants/Plant_5.fbx
+  artifactKey: Guid(3de949c73b3558a47ba4653fc89804ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Models/Vegetation/Plants/Plants/Plant_5.fbx using Guid(3de949c73b3558a47ba4653fc89804ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd79002bfd0dbc08c78f083764be723df') in 0.021828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Models/Vegetation/Plants/Plants/Plant_9.fbx
+  artifactKey: Guid(291ac41f413c22d4eb10a9fa6a0c3ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Models/Vegetation/Plants/Plants/Plant_9.fbx using Guid(291ac41f413c22d4eb10a9fa6a0c3ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '82db337bd28260ab8758fdf63a6b48a7') in 0.022704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Models/Vegetation/Plants/Plants/Plant_10.fbx
+  artifactKey: Guid(3e95a8e9e4342744ea8209ac45a64bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Models/Vegetation/Plants/Plants/Plant_10.fbx using Guid(3e95a8e9e4342744ea8209ac45a64bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e9ff699ecb95ff162ce4238469910d2d') in 0.021533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 6.803702 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Terrains/Mountains/Mountain_5.prefab
+  artifactKey: Guid(0a0fe3a5bb02ee442b443c60bd9e017b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Terrains/Mountains/Mountain_5.prefab using Guid(0a0fe3a5bb02ee442b443c60bd9e017b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '493607935145adac6f3aaced9fba90cc') in 0.028702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 130.846253 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Blue_Mushroom_2.prefab
+  artifactKey: Guid(af1486fce2a781c4b88a22d3afc871be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Blue_Mushroom_2.prefab using Guid(af1486fce2a781c4b88a22d3afc871be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '07eccb19d28958afa82b400dd421bebc') in 0.060689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.001340 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Brown_Mushroom_2.prefab
+  artifactKey: Guid(726881f74a9a0e94ebefec9c1c4cf317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Brown_Mushroom_2.prefab using Guid(726881f74a9a0e94ebefec9c1c4cf317) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'fc5aba5652f3efab0beede4372f8ed5e') in 0.022064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Blue_Mushroom_3.prefab
+  artifactKey: Guid(611bd5199d9199a4aa0ee6201a9aac51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Blue_Mushroom_3.prefab using Guid(611bd5199d9199a4aa0ee6201a9aac51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ce820851ca1d14742d42a624f0146d62') in 0.019075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Brown_Mushroom_3.prefab
+  artifactKey: Guid(e4d7886d0cef9c8449f2abe0e1c465d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Brown_Mushroom_3.prefab using Guid(e4d7886d0cef9c8449f2abe0e1c465d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '21715c26dd77fff5e1db53f43e8b4aa6') in 0.016430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Brown_Mushroom_1.prefab
+  artifactKey: Guid(e3fff4466a1209f4f8a38ab8fe73136a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Brown_Mushroom_1.prefab using Guid(e3fff4466a1209f4f8a38ab8fe73136a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2aed4235368d515e18f5639ca05747d8') in 0.016491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Blue_Mushroom_8.prefab
+  artifactKey: Guid(aaab67a2df9648449ad1d11f616b5ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Blue_Mushroom_8.prefab using Guid(aaab67a2df9648449ad1d11f616b5ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e934e57a6d566a9906aaf38e78a7547e') in 0.015218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Purple_Mushroom_1.prefab
+  artifactKey: Guid(69b0ee67c637e7746b607689929b9497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Purple_Mushroom_1.prefab using Guid(69b0ee67c637e7746b607689929b9497) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e0ae27e7eda55ad1071cbad3714d9758') in 0.017413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Brown_Mushroom_5.prefab
+  artifactKey: Guid(62c55808feff63240b3c11d1aceb8a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Brown_Mushroom_5.prefab using Guid(62c55808feff63240b3c11d1aceb8a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '085fa0e34ef39e6ec73783be42cd3ad8') in 0.016343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Brown_Mushroom_9.prefab
+  artifactKey: Guid(c83b141d2708da848bf8345b52b231a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Brown_Mushroom_9.prefab using Guid(c83b141d2708da848bf8345b52b231a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '89057d24189f0dfbd724bb75ae0894ba') in 0.014646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Purple_Mushroom_6.prefab
+  artifactKey: Guid(10507d915d2583c46a065ba736633eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Purple_Mushroom_6.prefab using Guid(10507d915d2583c46a065ba736633eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '07b03f62da2770b40e1c3374b0bd28db') in 0.014096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Purple_Mushroom_5.prefab
+  artifactKey: Guid(5cc5c29b382ddc543a30e94a57855702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Purple_Mushroom_5.prefab using Guid(5cc5c29b382ddc543a30e94a57855702) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b3055e47434f3fe21f99ac2392bec991') in 0.013115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Brown_Mushroom_6.prefab
+  artifactKey: Guid(c3e39ee95fb45e144ac22424e4fdc25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Mushrooms/Brown_Mushroom_6.prefab using Guid(c3e39ee95fb45e144ac22424e4fdc25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1cc4cd768779432d02fba0264e2ee409') in 0.014934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.847558 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Fruits/Orange_1.prefab
+  artifactKey: Guid(7a9e2dea92821634e9f37476f351be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Fruits/Orange_1.prefab using Guid(7a9e2dea92821634e9f37476f351be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '106cf89dbd8c0e50c24aa4b47d2d379c') in 0.015563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.735714 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Blue_Flower_2.prefab
+  artifactKey: Guid(dbf9da81d60e3e54197c89ca9347e23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Blue_Flower_2.prefab using Guid(dbf9da81d60e3e54197c89ca9347e23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e7a721ab9056a47100571c84aa52bf93') in 0.016884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Yellow_Flower_1.prefab
+  artifactKey: Guid(b628d3dbeff82cf49b807c0b25a6f2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Yellow_Flower_1.prefab using Guid(b628d3dbeff82cf49b807c0b25a6f2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '26dc039759033145c02618530ebedcf7') in 0.015917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Light_Purple_Flower_7.prefab
+  artifactKey: Guid(12f9bf693cbae154bbca07bf7c183704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Light_Purple_Flower_7.prefab using Guid(12f9bf693cbae154bbca07bf7c183704) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c7bba84ea1ba77cec42aba9fffbfe24c') in 0.015795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Yellow_Flower_4.prefab
+  artifactKey: Guid(64775ada22106e9458620309ec6dff06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Yellow_Flower_4.prefab using Guid(64775ada22106e9458620309ec6dff06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '594a501b7910c67c4ac49a725bd34d0c') in 0.015313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/White_Flower_2.prefab
+  artifactKey: Guid(c1046febdf2c63242b0b32310f4bfa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/White_Flower_2.prefab using Guid(c1046febdf2c63242b0b32310f4bfa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '44d3194450ed50e1ec7327405d8bdbe2') in 0.016380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/White_Flower_3.prefab
+  artifactKey: Guid(8eeebfbf37c373140bb4e7d454082f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/White_Flower_3.prefab using Guid(8eeebfbf37c373140bb4e7d454082f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '70b84c55eb0c7d3143a101c829a7c44b') in 0.015091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Orange_Flower_1.prefab
+  artifactKey: Guid(3a4197f599b5ec34b84c07441df72fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Orange_Flower_1.prefab using Guid(3a4197f599b5ec34b84c07441df72fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5f7c5217dcef3c970d11a3d5fb6eae69') in 0.015955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Pink_Flower_1.prefab
+  artifactKey: Guid(4e406dfa8cfe9dd418f7251d03226a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Pink_Flower_1.prefab using Guid(4e406dfa8cfe9dd418f7251d03226a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a9c9e6237bbd4fc95baad7933708af17') in 0.015100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Orange_Flower_2.prefab
+  artifactKey: Guid(a85c690efdcdb4b43b115919990eba1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Orange_Flower_2.prefab using Guid(a85c690efdcdb4b43b115919990eba1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '60ca5b69c7035018f6ae518f34075e87') in 0.016152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Yellow_Flower_2.prefab
+  artifactKey: Guid(88bbc37e3bf410d4fbc353c1a2d5c7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Yellow_Flower_2.prefab using Guid(88bbc37e3bf410d4fbc353c1a2d5c7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3931333a9491b874ab1f8db62a35a73d') in 0.015314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Light_Pink_Flower_3.prefab
+  artifactKey: Guid(fc99a2bd43757ee41ae71385fd0dee9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Light_Pink_Flower_3.prefab using Guid(fc99a2bd43757ee41ae71385fd0dee9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e770bb8852b7b5e034fd2ab76aefcfc0') in 0.016843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Yellow_Flower_3.prefab
+  artifactKey: Guid(e242ba599441421489707fc2a3bd3ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Yellow_Flower_3.prefab using Guid(e242ba599441421489707fc2a3bd3ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '8e969831232956efd2b8e4d69f8e260f') in 0.015195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Light_Pink_Flower_2.prefab
+  artifactKey: Guid(b92201891d7079040b76063c32ac7198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Light_Pink_Flower_2.prefab using Guid(b92201891d7079040b76063c32ac7198) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'db2b9eba2665f49d8730c8559586c82a') in 0.015899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Light_Pink_Flower_1.prefab
+  artifactKey: Guid(6f5ef3851ad6b8842b39aae23cfa9e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Flowers/Light_Pink_Flower_1.prefab using Guid(6f5ef3851ad6b8842b39aae23cfa9e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ad85802761aa482430275b624c3434cb') in 0.015936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.098178 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Desert Plants/Snow Desert Plants/Snow_Desert_Plant_4.prefab
+  artifactKey: Guid(dc429d82c741f49469d964d73c13eaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Desert Plants/Snow Desert Plants/Snow_Desert_Plant_4.prefab using Guid(dc429d82c741f49469d964d73c13eaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'fc23c0b7e05d505a1d1e30639dcdfd7d') in 0.015641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.510987 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Desert Plants/Desert Plants/Desert_Plant_4.prefab
+  artifactKey: Guid(9e69f30e66f191344aa592471c096723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Vegetation/Desert Plants/Desert Plants/Desert_Plant_4.prefab using Guid(9e69f30e66f191344aa592471c096723) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2ff89b0830d942cc23a0a6e0d3716389') in 0.015779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 13.151881 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Trees/Acacia Trees/Acacia Trees/Acacia_Tree_4.prefab
+  artifactKey: Guid(ac67d0f9294c4704d8cf846b62af1c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Trees/Acacia Trees/Acacia Trees/Acacia_Tree_4.prefab using Guid(ac67d0f9294c4704d8cf846b62af1c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '48aa8e1844ec7b9ff0c3975d4708c4c1') in 0.016898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Trees/Acacia Trees/Acacia Trees/Dead_Acacia_Tree_3.prefab
+  artifactKey: Guid(9a7cbfe6ed501a14d9daac10191338b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Low Poly Trees and Vegetation - Pack/Prefabs/Trees/Acacia Trees/Acacia Trees/Dead_Acacia_Tree_3.prefab using Guid(9a7cbfe6ed501a14d9daac10191338b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0700d1a387d07ce6feec0a3e45386ac7') in 0.015888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

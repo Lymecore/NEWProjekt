@@ -361,6 +361,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.60f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/DBK/Scripts/DBK_ColorThemeSelect.cs"
 "Assets/Scripts 3/Camera Controller.cs"
+"Assets/Scripts 3/EnemyBehavior.cs"
 "Assets/Scripts 3/FinishLine.cs"
 "Assets/Scripts 3/GameManager.cs"
 "Assets/Scripts 3/Pickups.cs"

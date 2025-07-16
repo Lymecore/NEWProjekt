@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
+using UnityEngine.Windows;
+using Input = UnityEngine.Input;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
@@ -10,6 +12,9 @@ public class PlayerController : MonoBehaviour
     public float jumpforce;
     public Rigidbody rig;
     public int health;
+
+    public Animator anim;
+
     public int coincount;
     
     void move()
@@ -24,14 +29,25 @@ public class PlayerController : MonoBehaviour
 
         rig.velocity = dir;
         //rig.MoveRotation(rig.rotation * angleRot);
+        if (Mathf.Abs(x) > 0.1f || Mathf.Abs(z) > 0.1f)
+        {
+            anim.SetBool("isRunning", true);
+        }
+        else
+        {
+            anim.SetBool("isRunning", false);
+        }
     }
     
    void TryJump()
    {
         Ray ray = new Ray(transform.position, Vector3.down);
 
-        if (Physics.Raycast(ray, 1.5f))
+        if (Physics.Raycast(ray, 1f))
+        {
+            anim.SetTrigger("isJumping");
             rig.AddForce(Vector3.up * jumpforce, ForceMode.Impulse);
+        }
    }
 
 
@@ -49,5 +65,28 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
             TryJump();
+
+        if(health <= 0)
+        {
+            anim.SetBool("die", true);
+            StartCoroutine("DieButCool");
+        }
+    }
+    IEnumerator DieButCool()
+    {
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene(0);
+    }   
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.name == "Enemy")
+        {
+            health -= 5;
+        }
+        if(other.gameObject.name == "FallCollider")
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 }
+//UwU

@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     public float time;
     public bool timeActive;
 
-
+    // :3 
     [Header("GameUI")]
     public TMP_Text gameUI_score;
     public TMP_Text gameUI_health;
@@ -24,20 +24,29 @@ public class GameManager : MonoBehaviour
     public int countdown;
 
     [Header("EndScreens UI")]
+    public TMP_Text endUI_score;
+    public TMP_Text endUI_time;
+
+    // WHAT? MY MOTHER???? YOU DASTARDLY SONOFA-!!!!! 
 
     [Header("Screens")]
     public GameObject countdownUI;
     public GameObject gameUI;
     public GameObject endUI;
+
+    // OwO~
     // Start is called before the first frame update
     void Start()
     {
-        timeActive = false;
         player = GameObject.Find("Dr.Pill").GetComponent<PlayerController>();
+
+        timeActive = false;
 
         time = 0;
 
         player.enabled = false;
+
+        SetScreen(countdownUI);
 
         StartCoroutine(CountDownRoutine());
 
@@ -66,25 +75,39 @@ public class GameManager : MonoBehaviour
         SetScreen(gameUI);
         timeActive = true;
     }
-   
-   public void endGame()
+
+    public void endGame()
     {
+        Debug.Log("ENTERED END");
         timeActive = false;
 
         player.enabled = false;
 
-        //SetScreen(countdownUI);
+        endUI_score.text = "Score: " + player.coincount;
+        endUI_time.text = "Time: " + (time * 10).ToString("F2");
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        SetScreen(endUI);
+
+        // Rawr~
 
     }
 
-  
+    public void OnRestartbutton()
+    {
+        SceneManager.LoadScene(0);
+    }
+    
+    
     // Update is called once per frame
     void Update()
     {
-        time = time + Time.deltaTime;
+        if (timeActive)
+        {
+            time = time + Time.deltaTime;
+        }
 
-
-        gameUI_score.text = "OwO's:" + player.coincount;
+        gameUI_score.text = "OwO's :" + player.coincount;
         gameUI_health.text = "Health: " + player.health;
         gameUI_time.text = "Time: " + (time * 10).ToString("F2");
      } 
@@ -94,7 +117,9 @@ public class GameManager : MonoBehaviour
         Debug.Log("Test");
         gameUI.SetActive(false);
         countdownUI.SetActive(false);
+        endUI.SetActive(false);
 
         screen.SetActive(true);
     }
 }
+//
