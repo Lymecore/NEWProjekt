@@ -68,7 +68,8 @@ public class PlayerController : MonoBehaviour
 
         if(health <= 0)
         {
-            anim.SetBool("die", true);
+            Debug.Log("dead");
+            anim.SetBool("ded", true);
             StartCoroutine("DieButCool");
         }
     }
@@ -87,6 +88,12 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene(0);
         }
+        if(other.gameObject.name == "Mine")
+        {
+            health = 0;
+        }
+            
+        
     }
 }
 //UwU

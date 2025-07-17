@@ -14,7 +14,7 @@ public class EnemyBehavior : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        player = GameObject.Find("Player").transform;
+        player = GameObject.Find("Dr.Pill").transform;
 
     }
 
